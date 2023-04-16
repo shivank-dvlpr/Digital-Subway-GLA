@@ -8,10 +8,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.shivank.gdsubway_gla.shop_categories.TheFoodTales;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     ImageView imgInfo;
-
+    LinearLayout foodTalesLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         imgInfo = findViewById(R.id.imgInfo);
         imgInfo.setOnClickListener(this);
+
+        foodTalesLayout = findViewById(R.id.foodTalesLayout);
+        foodTalesLayout.setOnClickListener(this);
 
     }
 
@@ -33,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, InfoClass.class));
                 break;
 
+            case R.id.foodTalesLayout:
+                startActivity(new Intent(this, TheFoodTales.class));
+                break;
         }
 
     }
