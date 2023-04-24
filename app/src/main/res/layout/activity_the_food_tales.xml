@@ -12,7 +12,990 @@
         android:scaleType="center"
         android:src="@drawable/bg"/>
 
-    <androidx.core.widget.NestedScrollView
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="North Street"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Chhole Bhature"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="89 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Paneer Chhole Bhature"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="99 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Pav-Bhaji"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="65 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Cheese Pav-Bhaji"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="79 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Amul Butter Pav-Bhaji"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="79 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Pav-Nutri"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="79 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Chhole Kulche"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="65 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Paneer Chhole Kulche"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="79 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Nutri Kulcha"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="89 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pateez"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Ragda Masala Pateez"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="35 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Chilly cheese Pateez"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="39 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Corn 'n' Cheese Pateez"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="39 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Barbeque Paneer Pateez"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="49 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Peppy Paneer Pateez"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="49 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Russian Masala Pateez"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="55 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Pizza Pateez"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="59 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MORNING BITE'S"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Kachori"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="30 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Chhole Kachori"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="35 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Samosa"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="17 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Chhole Samosa"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="39 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Bedai Poori Bhaji"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="65 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  THE CHAAT STREET"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Kachori Chaat"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="35 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Samoosa Chaat"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="35 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Papdi Chaat"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="49 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Sevpoori"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="39 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Bhelpuri"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="49 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Pani-Poori(Golgappe)"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="25 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Aloo Tikki"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="45 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text=" Kurkure Chaat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="45 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Corn Chaat"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="59 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Potato Twister"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="79 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:text="Heu Special Chaat"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="79 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+    <!--<androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -94,7 +1077,7 @@
 
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>-->
 
 
 

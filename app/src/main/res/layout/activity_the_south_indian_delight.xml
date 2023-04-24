@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop_categories.The_South_Indian_delight">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:scaleType="center"
+        android:src="@drawable/menu"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IDLI / VADA"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Idli (SAMBAR-CHUTNEY)"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="69 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Vada (SAMBAR-CHUTNEY)"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="69 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="Rawa Idli (SAMBAR-CHUTNEY)"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="69 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Onion Vada (SAMBAR-CHUTNEY)"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="59 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FAVORITES"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="IDLI + COFFEE"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="89 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text= "VADA+ COFFEE"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="89 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="IDLI CHAAT"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="65 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="MASALA DOSA + COFFEE"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="119 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="RAWA MASALA DOSA + COFFEE
+"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="119 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SWEET"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="KESARI HALWA"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="59 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="SUJI HALWA"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="49 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/drop_down_spinner_bg"
+                android:padding="10dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" SPECIAL THALI"
+                    android:background="@drawable/food_menu_title_bg"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="IDLI,VADA + HALWA"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:text="149 Rs."
+                        android:textColor="@color/white"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="COFFEE"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="30 Rs."
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

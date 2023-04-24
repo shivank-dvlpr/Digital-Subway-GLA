@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.PendingIntent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.WindowManager;
@@ -52,9 +53,9 @@ public class TheFoodTales extends AppCompatActivity {
         getSupportActionBar().setTitle("The Food Tales by HEU");
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-
+        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
         //spinner = findViewById(R.id.spinner);
-        listView = findViewById(R.id.lisViewNorth);
+      /*  listView = findViewById(R.id.lisViewNorth);
         listViewPateez = findViewById(R.id.lisViewPateez);
 
         MyAdapter myAdapter = new MyAdapter(items, prices);
@@ -63,25 +64,22 @@ public class TheFoodTales extends AppCompatActivity {
 
         MyAdapter myAdapter1 = new MyAdapter(pateezItems, pateezPrices);
         listViewPateez.setAdapter(myAdapter1);
-        listViewPateez.setLayoutManager(new LinearLayoutManager(this));
-
-       // ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,items);
-        //listView.setAdapter(adapter1);
+        listViewPateez.setLayoutManager(new LinearLayoutManager(this));*/
 
 
-       /* ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,prices);
-        listViewPateez.setAdapter(adapter2);*/
-
-        /*CustomSpinnerAdapter adapter = new CustomSpinnerAdapter(this, items, prices);
-        listView.setAdapter(adapter);
-
-        CustomSpinnerAdapter adapter1 = new CustomSpinnerAdapter(this, items, prices);
-        listViewPateez.setAdapter(adapter1);*/
-
-       // ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
-       // adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        spinner.setAdapter(adapter);
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }
 }
