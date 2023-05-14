@@ -7,10 +7,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.app.PendingIntent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.shivank.gdsubway_gla.R;
 
@@ -46,6 +49,8 @@ public class TheFoodTales extends AppCompatActivity {
     Spinner spinner;
     RecyclerView listView, listViewPateez;
 
+    TextView txtCholeBhature;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,7 +71,16 @@ public class TheFoodTales extends AppCompatActivity {
         listViewPateez.setAdapter(myAdapter1);
         listViewPateez.setLayoutManager(new LinearLayoutManager(this));*/
 
+        txtCholeBhature = findViewById(R.id.txtCholeBhature);
 
+        txtCholeBhature.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(TheFoodTales.this, "Not Available !", Toast.LENGTH_LONG).show();
+
+            }
+        });
 
 
     }

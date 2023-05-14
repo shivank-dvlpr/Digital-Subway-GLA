@@ -12,6 +12,9 @@
         android:theme="@style/Theme.DigitalSubwayGLAMathura"
         tools:targetApi="31">
         <activity
+            android:name=".shop_categories.CraveIt"
+            android:exported="false" />
+        <activity
             android:name=".shop_categories.The_South_Indian_delight"
             android:exported="false" />
         <activity
